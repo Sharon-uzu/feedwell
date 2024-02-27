@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+.main{
+  width: 100%;
+  height: 100vh;
+  background-color: #fef7e8;
+  padding-bottom: 30px;
+  /* background-color: hsla(30, 3%, 14%, 0.6); */
+
+}
+
+header{
+  width: 85%;
+  margin: auto;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 700;
+}
+
+header img{
+  width: 13%;
+  height: 55%;
+  object-fit: cover;
+}
+header nav{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+header nav ul{
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  z-index: 90;
+  position: relative;
+}
+header nav ul li{
+  list-style: none;
+  font-size: 19px;
+  color: #eb6333;
+  font-weight: 600;
+  z-index: 90;
+  position: relative;
+  cursor: pointer;
+}
+header nav ul li:hover{
+  color: #000;
+}
+header nav button{
+  background-color: #eb6333;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  padding:10px 20px;
+  border-radius: 20px;
+  border: none;
+  z-index: 90;
+  position: relative;
+}
+
+.circle{
+  width: 750px;
+  overflow: hidden;
+  position: absolute;
+  height: 750px;
+  border-radius: 750px;
+  background-color: hsla(16, 82%, 56%, .2);
+  bottom: 100px;
+ right: 0;
+  z-index: 0;
+}
+
+
+
+.main .main-c{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 90;
+  position: relative;
+}
+
+.main .main-c div{
+  width: 48%;
+}
+
+
+
+.main .main-c div h6{
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.main .main-c div h3{
+  font-size: 63px;
+  width: 90%;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.main .main-c div .form{
+  width: 90%;
+  background-color: #fff;
+  height: 50px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+  align-items: center;
+  border: 2px solid #000;
+} 
+.main .main-c div .form input{
+  border: none;
+  background-color: transparent;
+  height: 100%;
+  width: 65%;
+  padding-left: 20px;
+  outline: none;
+}
+
+.main .main-c div .form button{
+  border: none;
+  background-color: #000;
+  border-radius: 40px;
+  height: 100%;
+  width: 30%;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.main .main-c div p{
+  margin-top: 30px;
+  font-size: 19px;
+}
+
+.main .main-c div img{
+  width: 100%;
+  height: 550px;
+  object-fit: contain;
+}
+.main .main-c .right{
+  width: 45%;
+  position: relative;
+}
+.main .main-c div .abs{
+  width: 55%;
+  background-color: #fff;
+  padding: 15px;
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+
+.main .main-c div .abs img{
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+
+.main .main-c div .abs .abs-r{
+  width: 83%;
+}
+
+.main .main-c div .abs .abs-r p{
+  margin-top: 5px;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.main .main-c div .abs .abs-r .hrt{
+  color: red;
+}
+
+.main .main-c div .abs .abs-r .info{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.main .main-c div .abs .abs-r .info span{
+  font-size: 14px;
+}
+.icons{
+  margin-top: 30px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+ .icons span{
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons span:hover{
+  border: 1px solid #eb6333;
+
+}
+
+.icons span .f-i{
+  font-size: 22px;
+}
+.icons span .f-i:hover{
+  color: #eb6333;
+  cursor: pointer;
+}
+
+.bars{
+  display: none;
+}
+
+
+
+
+@media screen and (max-width:1275px){
+  header nav ul{
+    width: 60%;
+  }
+  .main .main-c div .abs{
+    width: 68%;
+  }
+}
+
+@media screen and (max-width:970px){
+  .main .main-c div .abs{
+    bottom: 110px;
+  }
+
+  .main .main-c div .abs{
+    width: 95%;
+  }
+
+}
+
+@media screen and (max-width:900px){
+  header nav{
+    width: 75%;
+  }
+  header nav ul{
+    width: 65%;
+  }
+  .main .main-c div h3{
+    font-size: 40px;
+    width: 100%;
+  }
+   .icons {
+    width: 90%;
+  }
+ 
+}
+
+@media screen and (max-width:780px){
+  .main .main-c div{
+    width: 55%;
+  }
+  .main .main-c .right{
+    width: 42%;
+  }
+  .main .main-c div .abs img{
+    margin-right: 10px;
+  }
+
+}
+
+
+@media screen and (max-width:730px){
+  .main .main-c{
+    flex-direction: column-reverse;
+  }
+  .main .main-c div{
+    width: 100%;
+  }
+  .main .main-c .right{
+    width: 100%;
+  }
+
+  .main .main-c div .abs{
+    width: 65%;
+  }
+}
+
+@media screen and (max-width:700px){
+  header img{
+    width: 100px;
+  }
+  .bars{
+    display: block;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  header{
+    align-items: center;
+  }
+  header nav{
+    flex-direction: column;
+    position: absolute;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    left:-100%;
+    height: 90vh;
+    background-color: #eb6333;
+    top: 10vh;
+    z-index: 8000;
+    text-align: center;
+    align-items: center;
+    transition: ease-in;
+    /* display: none; */
+  }
+  header .active{
+    
+  
+  left: 0%;
+  }
+  header nav ul{
+    width: 100%;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: auto;
+  }
+  header nav ul li{
+    color: #fff;
+    margin-top: 30px;
+    text-align: start;
+  }
+  header nav button{
+    background-color: #fff;
+    color: #eb6333;
+    margin-top: 30px;
+    width: fit-content;
+
+  }
+ 
+
+  /* header div{
+    width: fit-content;
+  } */
+  .foot .pol a{
+    font-size: 17px;
+  }
+
+  .main .main-c div h3{
+    font-size: 36px;
+  }
+
+  .main .main-c div .form{
+    width: 100%;
+  }
+
+  .main .main-c div .form input{
+    width: 60%;
+  }
+
+  .main .main-c div .form button{
+    font-size: 14px;
+    width: 30%;
+    margin: auto;
+  }
+
+  .main .main-c div p{
+    font-size: 16px;
+  }
+  
+}
+
+@media screen and (max-width:600px){
+  .main{
+    height: auto;
+  }
+  .main .main-c div .abs{
+    width: 90%;
+  }
+  .foot {
+    flex-direction: column;
+  }
+   .icons{
+    width: 100%;
+  }
+  
+}
+
+@media screen and (max-width:450px){
+  .main .main-c div .form input{
+    width: 55%;
+  }
+  .main .main-c div .form button{
+    width: 37%;
+    font-size: 13px;
+  }
+}
